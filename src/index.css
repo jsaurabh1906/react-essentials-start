@@ -83,17 +83,18 @@ main h2 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.tab {
+#tab {
   padding: 1rem;
   border-radius: 6px;
   background-color: #2f1d43;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.tab h3 {
+#tab h3 {
   margin: 0;
 }
 
-.tab code {
-  font-size: 1rem;
+#tab code {
+  /* font-size: 1rem; */
+  font-size: clamp(0.7rem, 1.5vw, 1rem);
 }
